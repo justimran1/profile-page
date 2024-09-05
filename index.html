@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    .profile{
+    height:100px;
+    width: 100px;
+    margin: 1rem;
+    border-radius: 80%;
+    image-orientation: from-image;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color:#1E201E;
+      text-align: center;
+    }
+
+
+    .container{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height:90vh;
+      gap:10px;
+      background-color:black;
+      border-radius: 24px;
+      padding: 20px;}
+
+
+
+
+
+
+
+    /* the font of the h1 */
+    .title{
+      font-size: 29.23px;
+      color:whitesmoke;
+      font-family: "Rubik", sans-serif;
+      font-optical-sizing: auto;
+    }
+    /* the fonts of each div */
+  .name{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 15.47px;
+  color:white ;
+  }
+h2{
+  font-size: 15.23px;
+      color:wheat;
+      font-family: "Rubik", sans-serif;
+      font-optical-sizing: auto;
+}
+p{
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+.div{
+  flex: 1;
+max-width:48vh;
+background-color:#A91D3A;
+gap: 10px;
+margin-bottom: 15px;
+text-align: center;
+height:25px;
+border-radius:14px;
+padding: 10px;
+}
+.div:hover {
+  background-color:#2E236C;
+  color: white;
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+ <div class="image"><img src="./assets/images/linkedin profile 2.png" class="profile" alt="user-display" ></div>
+ <h1 class="title">Olubodun Imran</h1> 
+ <h2 class="city ">Lagos, Nigeria</h2> 
+
+ <p>"Front-end developer and avid reader."</p>
+
+ <div class="div name">LinkedIn</div>
+ <div class="div name">Frontend Mentor</div>
+ <div class="div name">GitHub</div>
+ <div class="div name">Twitter</div>
+ <div class="div name"> Instagram</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">IMRAN OLUBODUN</a>.
+  </div>
+</div>
+</body>
+</html>
